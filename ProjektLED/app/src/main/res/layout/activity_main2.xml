@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ToggleButton
+        android:id="@+id/greenBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_green_light"
+        app:layout_constraintBaseline_toBaselineOf="@+id/greenBtn2"
+        app:layout_constraintEnd_toStartOf="@+id/greenBtn2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/greenBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_green_light"
+        app:layout_constraintEnd_toStartOf="@+id/greenBtn3"
+        app:layout_constraintStart_toEndOf="@+id/greenBtn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/greenBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_green_light"
+        app:layout_constraintBaseline_toBaselineOf="@+id/greenBtn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/greenBtn2" />
+
+    <ToggleButton
+        android:id="@+id/redBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_red_light"
+        app:layout_constraintBaseline_toBaselineOf="@+id/redBtn2"
+        app:layout_constraintEnd_toStartOf="@+id/redBtn2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/redBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_red_light"
+        app:layout_constraintEnd_toStartOf="@+id/redBtn3"
+        app:layout_constraintStart_toEndOf="@+id/redBtn1"
+        app:layout_constraintTop_toBottomOf="@+id/greenBtn2" />
+
+    <ToggleButton
+        android:id="@+id/redBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_red_light"
+        app:layout_constraintBaseline_toBaselineOf="@+id/redBtn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/redBtn2" />
+
+    <ToggleButton
+        android:id="@+id/blueBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_blue_light"
+        app:layout_constraintBaseline_toBaselineOf="@+id/blueBtn2"
+        app:layout_constraintEnd_toStartOf="@+id/blueBtn2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/blueBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_blue_light"
+        app:layout_constraintEnd_toStartOf="@+id/blueBtn3"
+        app:layout_constraintStart_toEndOf="@+id/blueBtn1"
+        app:layout_constraintTop_toBottomOf="@+id/redBtn2" />
+
+    <ToggleButton
+        android:id="@+id/blueBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="ToggleButton"
+        android:background="@android:color/holo_blue_light"
+        app:layout_constraintBaseline_toBaselineOf="@+id/blueBtn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/blueBtn2" />
+
+</android.support.constraint.ConstraintLayout>
