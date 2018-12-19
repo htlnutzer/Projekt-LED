@@ -7,8 +7,8 @@ Ziel:
 Soll Kriterien:
   
     App soll mittels Raspberry Pi LED s auf einem Steckbrett ansteuern können. Dabei sollen die Ausgewählten LED s leuchten.
-    Zusätzlich sollen bereits eingegebene Zeichen abgespeichert werden können.
+    
     
 Kann Kriterien:
 
-    Einstellbare Zeit der einzelnen LEDs
+    verschiedene Muster sollen sich nach gewisser Zeit ändern
