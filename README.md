@@ -1,8 +1,7 @@
 Ziel:
 
     App, in der ein 3x3 Button Layout vorherrscht welche mittels Raspberry Pi ein Steckbrett ansteuert das ebenfalls ein Layout 
-    mit 3x3 LED s hat die mit der App angesteuert werden können.Die eingegebenen zu leuchtenden LED s sollen abgespeichert und 
-    später wieder aufrufbar sein.
+    mit 3x3 LED s hat die mit der App angesteuert werden können.
     
 Soll Kriterien:
   
