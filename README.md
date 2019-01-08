@@ -10,4 +10,4 @@ Soll Kriterien:
     
 Kann Kriterien:
 
-    verschiedene Muster sollen sich nach gewisser Zeit ändern
+    Muster soll gespeichert werden können
